@@ -51,3 +51,4 @@ from Bayes_Classifier import BayesClassifier
 
 k=BayesClassifier(mnist_dict)
 classify=k.Naive_Bayes(10,100)
+pl=k.Naive_Bayes_Gaussian(5)
