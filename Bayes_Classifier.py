@@ -102,7 +102,7 @@ class BayesClassifier():
         x_test=data['x_test']
         y_test=data['y_test']
 
-        dim=x.shape[0]
+        dim=x.shape[1]
         log_likelihood = np.zeros((y_test.shape))
         gaussians_pivot=np.ones((dim))
         gaussians_other=np.ones((dim))
